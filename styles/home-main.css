@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+:root {
+    --main-body-color: #E6E6E8;
+    --dark-txt-color: #121212;
+    --dark-txt-shadow-color: #121212a1;
+    --light-txt-color: #E6E6E8;
+    --light-txt-shadow-color: #E6E6E8;
+    --dark-shadow-color: #1212128f;
+    --secondary-light-txt-color: #c5c5c5;
+    --secondary-dark-txt-color: #383838;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    scroll-snap-type: y mandatory;
+    background-color: var(--main-body-color);
+}
+
+.background1 {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scroll-snap-align: start;
+    position: absolute;
+}
+
+.background1 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    object-fit: contain;
+}

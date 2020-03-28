@@ -1,0 +1,48 @@
+nav {
+    width: 100%;
+    height: 10%;
+}
+
+nav ul {
+    margin: 2em 7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 21px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--dark-txt-color);
+    text-shadow: 0px 0px 20px var(--dark-txt-shadow-color);
+    font-weight: regular;
+    transition: all 300ms ease-out;
+    border-bottom: 1px solid transparent;
+}
+
+nav ul li a:not(.logo):hover {
+    border-color: var(--dark-txt-color);
+}
+
+nav ul .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+nav ul .logo img {
+    width: 50px;
+}
+
+nav ul .search img {
+    padding-right: 7px;
+    width: 17px;
+}
