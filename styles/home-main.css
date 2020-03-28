@@ -7,8 +7,9 @@
     --light-txt-color: #E6E6E8;
     --light-txt-shadow-color: #E6E6E8;
     --dark-shadow-color: #1212128f;
-    --secondary-light-txt-color: #c5c5c5;
-    --secondary-dark-txt-color: #383838;
+    --secondary-light-txt-color: #cacaca;
+    --secondary-dark-txt-color: #636363;
+    --secondary-red: #ff4e4e;
 }
 
 html {
@@ -45,4 +46,19 @@ body {
     margin-left: 50%;
     transform: translateX(-50%);
     object-fit: contain;
+}
+
+.top-button {
+    width: 70px;
+    height: 70px;
+    border-radius: 45px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+    background-color: var(--dark-txt-color);
+    -webkit-box-shadow: 0px 0px 10px 0px var( --dark-shadow-color);
+    -moz-box-shadow: 0px 0px 10px 0px var( --dark-shadow-color);
+    box-shadow: 0px 0px 10px 0px var( --dark-shadow-color);
+    z-index: 10;
 }

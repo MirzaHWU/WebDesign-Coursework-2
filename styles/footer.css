@@ -1,0 +1,9 @@
+footer {
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    background-color: var(--secondary-dark-txt-color);
+    -webkit-box-shadow: inset 0px 0px 10px 0px var(--dark-txt-shadow-color);
+    -moz-box-shadow: inset 0px 0px 10px 0px var(--dark-txt-shadow-color);
+    box-shadow: inset 0px 0px 10px 0px var(--dark-txt-shadow-color);
+}

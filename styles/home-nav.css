@@ -25,7 +25,9 @@ nav ul li a {
 }
 
 nav ul li a:not(.logo):hover {
-    border-color: var(--dark-txt-color);
+    border-color: var(--light-txt-color);
+    color: var(--light-txt-color);
+    background-color: var(--dark-txt-color);
 }
 
 nav ul .logo {

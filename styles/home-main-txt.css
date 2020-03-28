@@ -47,11 +47,10 @@ section .main-txt .sign button {
 section .main-txt .sign button:hover {
     word-spacing: 10px;
     letter-spacing: 5px;
-    color: var(--dark-txt-color);
-    background-color: var(--light-txt-color);
-    -webkit-box-shadow: 0px 0px 10px 0px var(--dark-txt-shadow-color);
-    -moz-box-shadow: 0px 0px 10px 0px var(--dark-txt-shadow-color);
-    box-shadow: 0px 0px 10px 0px var(--dark-txt-shadow-color);
+    background-color: var(--secondary-red);
+    -webkit-box-shadow: 0px 0px 10px 0px var(--secondary-red);
+    -moz-box-shadow: 0px 0px 10px 0px var(--secondary-red);
+    box-shadow: 0px 0px 10px 0px var(--secondary-red);
 }
 
 section .main-txt .sign button:focus {
